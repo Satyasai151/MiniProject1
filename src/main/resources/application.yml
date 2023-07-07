@@ -1,0 +1,21 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/jrtp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+plan-api:
+   Messages:
+      planSaveSuccess: Plan Saved Successfully
+      planSavFail: Save Failed
+      planUpdateSuccess: Plan Updated Successfully
+      planUpdateFail: Update Failed
+      planDeleteSuccess: Plan Deleted Successfully
+      planDeleteFail:  Delete Failed
+      planStatusChangeSuccess: Plan Status Changed Successfully
+      planStatusChangeFail: Plan Status Change Failed   
